@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F8882987AD56979CC1B75F7 /* libPods-SwiftCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 298D33559BCA4F7BA4839831 /* libPods-SwiftCalendar.a */; };
 		C29407291A2C8E4E00AE0E9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29407281A2C8E4E00AE0E9B /* AppDelegate.swift */; };
 		C294072E1A2C8E4E00AE0E9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C294072C1A2C8E4E00AE0E9B /* Main.storyboard */; };
 		C29407301A2C8E4E00AE0E9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C294072F1A2C8E4E00AE0E9B /* Images.xcassets */; };
 		C29407331A2C8E4E00AE0E9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C29407311A2C8E4E00AE0E9B /* LaunchScreen.xib */; };
 		C294073F1A2C8E4E00AE0E9B /* SwiftCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C294073E1A2C8E4E00AE0E9B /* SwiftCalendarTests.swift */; };
-		C2D3C1281A2C93D400A3A59C /* HorizontalCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3C1271A2C93D400A3A59C /* HorizontalCalendarViewController.swift */; };
-		C2D3C12A1A2C93F700A3A59C /* VerticalCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3C1291A2C93F700A3A59C /* VerticalCalendarViewController.swift */; };
-		C2D3C12C1A2C940D00A3A59C /* CustomCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D3C12B1A2C940D00A3A59C /* CustomCalendarViewController.swift */; };
+		C2FBE9451AAA3E99008BCB86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FBE9441AAA3E99008BCB86 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17B275E310F9BFD92DCDE4B7 /* Pods-SwiftCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCalendar/Pods-SwiftCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		298D33559BCA4F7BA4839831 /* libPods-SwiftCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftCalendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29407231A2C8E4E00AE0E9B /* SwiftCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29407271A2C8E4E00AE0E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C29407281A2C8E4E00AE0E9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,9 +38,9 @@
 		C29407381A2C8E4E00AE0E9B /* SwiftCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C294073D1A2C8E4E00AE0E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C294073E1A2C8E4E00AE0E9B /* SwiftCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCalendarTests.swift; sourceTree = "<group>"; };
-		C2D3C1271A2C93D400A3A59C /* HorizontalCalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalCalendarViewController.swift; sourceTree = "<group>"; };
-		C2D3C1291A2C93F700A3A59C /* VerticalCalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalCalendarViewController.swift; sourceTree = "<group>"; };
-		C2D3C12B1A2C940D00A3A59C /* CustomCalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCalendarViewController.swift; sourceTree = "<group>"; };
+		C2FBE9441AAA3E99008BCB86 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2FBE9461AAA3EEE008BCB86 /* SwiftCalendar_Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftCalendar_Bridging_Header.h; sourceTree = "<group>"; };
+		E73CDB8F6313E8234D4CD07F /* Pods-SwiftCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCalendar/Pods-SwiftCalendar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F8882987AD56979CC1B75F7 /* libPods-SwiftCalendar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +62,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04A4B0FB14EB3EB31AEFB6B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17B275E310F9BFD92DCDE4B7 /* Pods-SwiftCalendar.debug.xcconfig */,
+				E73CDB8F6313E8234D4CD07F /* Pods-SwiftCalendar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C294071A1A2C8E4D00AE0E9B = {
 			isa = PBXGroup;
 			children = (
 				C29407251A2C8E4E00AE0E9B /* SwiftCalendar */,
 				C294073B1A2C8E4E00AE0E9B /* SwiftCalendarTests */,
 				C29407241A2C8E4E00AE0E9B /* Products */,
+				04A4B0FB14EB3EB31AEFB6B2 /* Pods */,
+				E517F14AEF63BEF02B404406 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				C294073D1A2C8E4E00AE0E9B /* Info.plist */,
+				C2FBE9461AAA3EEE008BCB86 /* SwiftCalendar_Bridging_Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,11 +133,17 @@
 		C2D3C12D1A2C955700A3A59C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				C2D3C1271A2C93D400A3A59C /* HorizontalCalendarViewController.swift */,
-				C2D3C1291A2C93F700A3A59C /* VerticalCalendarViewController.swift */,
-				C2D3C12B1A2C940D00A3A59C /* CustomCalendarViewController.swift */,
+				C2FBE9441AAA3E99008BCB86 /* ViewController.swift */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E517F14AEF63BEF02B404406 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				298D33559BCA4F7BA4839831 /* libPods-SwiftCalendar.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C29407421A2C8E4E00AE0E9B /* Build configuration list for PBXNativeTarget "SwiftCalendar" */;
 			buildPhases = (
+				A01B9230AE51FC63C1AE8625 /* Check Pods Manifest.lock */,
 				C294071F1A2C8E4D00AE0E9B /* Sources */,
 				C29407201A2C8E4D00AE0E9B /* Frameworks */,
 				C29407211A2C8E4D00AE0E9B /* Resources */,
+				1ED92D477D92A36C4FC7B52E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,14 +243,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1ED92D477D92A36C4FC7B52E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCalendar/Pods-SwiftCalendar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A01B9230AE51FC63C1AE8625 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C294071F1A2C8E4D00AE0E9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2D3C1281A2C93D400A3A59C /* HorizontalCalendarViewController.swift in Sources */,
-				C2D3C12C1A2C940D00A3A59C /* CustomCalendarViewController.swift in Sources */,
-				C2D3C12A1A2C93F700A3A59C /* VerticalCalendarViewController.swift in Sources */,
+				C2FBE9451AAA3E99008BCB86 /* ViewController.swift in Sources */,
 				C29407291A2C8E4E00AE0E9B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +405,7 @@
 		};
 		C29407431A2C8E4E00AE0E9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B275E310F9BFD92DCDE4B7 /* Pods-SwiftCalendar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftCalendar/Info.plist;
@@ -362,6 +416,7 @@
 		};
 		C29407441A2C8E4E00AE0E9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E73CDB8F6313E8234D4CD07F /* Pods-SwiftCalendar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftCalendar/Info.plist;

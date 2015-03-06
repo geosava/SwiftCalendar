@@ -1,153 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cD0-Xa-5or">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4fG-72-zE1">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
-        <scene sceneID="fas-Rg-VEr">
+        <!--View Controller-->
+        <scene sceneID="SQb-tX-Y1U">
             <objects>
-                <navigationController id="cD0-Xa-5or" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qjt-jm-fGZ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="sV4-27-Lp2" kind="relationship" relationship="rootViewController" id="b9L-1D-8YK"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Bho-a4-wbg" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-7532" y="-1535"/>
-        </scene>
-        <!--Vertical Calendar-->
-        <scene sceneID="XFy-dd-I2d">
-            <objects>
-                <navigationController id="TO0-QR-u8F" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Vertical Calendar" id="LcU-rK-bLH"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="i86-qZ-6HL">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="KVl-E2-AeQ" kind="relationship" relationship="rootViewController" id="g1h-bI-qC1"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dX4-Vm-x8U" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-5668" y="-2250"/>
-        </scene>
-        <!--Vertical Calendar View Controller-->
-        <scene sceneID="TZZ-7O-XnC">
-            <objects>
-                <viewController id="KVl-E2-AeQ" customClass="VerticalCalendarViewController" customModule="SwiftCalendar" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4fG-72-zE1" customClass="ViewController" customModule="SwiftCalendar" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="EsW-Z7-HnQ"/>
-                        <viewControllerLayoutGuide type="bottom" id="Toq-Gr-36M"/>
+                        <viewControllerLayoutGuide type="top" id="HYo-G1-Oag"/>
+                        <viewControllerLayoutGuide type="bottom" id="Juc-iv-aLX"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="HAz-TR-wQP">
+                    <view key="view" contentMode="scaleToFill" id="rXy-Wg-qAp">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Vcw-Gm-BFO"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="d4w-AM-mIx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9wC-93-Gkv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4966" y="-2250"/>
-        </scene>
-        <!--Horizontal Calendar View Controller-->
-        <scene sceneID="7k8-xr-wzL">
-            <objects>
-                <viewController id="x70-W7-S8g" customClass="HorizontalCalendarViewController" customModule="SwiftCalendar" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="99P-eX-E4u"/>
-                        <viewControllerLayoutGuide type="bottom" id="uzq-BA-dfN"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="J1v-co-o0F">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="rPh-I1-YSr"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x1X-MQ-M1f" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-4948" y="-1524"/>
-        </scene>
-        <!--Customized Calendar-->
-        <scene sceneID="TXw-ty-m49">
-            <objects>
-                <navigationController id="Qz7-cH-Fir" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Customized Calendar" id="aeK-Ts-bGc"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RYw-fr-Tqa">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="4dZ-Yn-XNs" kind="relationship" relationship="rootViewController" id="QfW-B8-FkV"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ctg-7x-SZ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-5668" y="-820"/>
-        </scene>
-        <!--Custom Calendar View Controller-->
-        <scene sceneID="Alv-Aw-50i">
-            <objects>
-                <viewController id="4dZ-Yn-XNs" customClass="CustomCalendarViewController" customModule="SwiftCalendar" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Xfp-2c-eoI"/>
-                        <viewControllerLayoutGuide type="bottom" id="8Th-7Z-ua5"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="FOx-tl-6O2">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="8H3-u1-4SX"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XZc-qC-MTP" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-4948" y="-820"/>
-        </scene>
-        <!--Horizontal Calendar-->
-        <scene sceneID="3UP-Tr-hQe">
-            <objects>
-                <navigationController id="uzy-lO-8RN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Horizontal Calendar" id="sV0-ra-vIC"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="84S-ej-NNt">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="x70-W7-S8g" kind="relationship" relationship="rootViewController" id="olT-lo-twO"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="UZP-KF-1go" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-5668" y="-1524"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="pcx-W3-BiD">
-            <objects>
-                <tabBarController id="sV4-27-Lp2" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="Z2C-cH-2Yq"/>
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="gFM-7B-hQp">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="TO0-QR-u8F" kind="relationship" relationship="viewControllers" id="KMi-lX-I7B"/>
-                        <segue destination="uzy-lO-8RN" kind="relationship" relationship="viewControllers" id="4VS-gk-ZRa"/>
-                        <segue destination="Qz7-cH-Fir" kind="relationship" relationship="viewControllers" id="bbx-XT-Lpb"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="d37-cR-N8w" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-6807" y="-1535"/>
+            <point key="canvasLocation" x="-6232" y="-1948"/>
         </scene>
     </scenes>
 </document>
