@@ -1,18 +1,19 @@
 //
-//  VerticalCalendarViewController.swift
+//  ViewController.swift
 //  SwiftCalendar
 //
-//  Created by Subodh Jena on 01/12/14.
-//  Copyright (c) 2014 Owl. All rights reserved.
+//  Created by Subodh Jena on 07/03/15.
+//  Copyright (c) 2015 Owl. All rights reserved.
 //
 
 import UIKit
 
-class VerticalCalendarViewController: UIViewController {
-    
+class ViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.blueColor()
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
